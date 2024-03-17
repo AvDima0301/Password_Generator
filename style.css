@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #202124;
+    font-family: monospace;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    background: linear-gradient(90deg, rgba(0,255,171,1) 0%, rgba(255,166,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: -120px;
+}
+
+.password_field {
+    width: 580px;
+    font-size: 20px;
+}
+
+.input_field {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_get_password {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: #212529;
+    margin-top: 50px;
+}
+
+.cb_field {
+    display: flex; 
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.num_pass_field{
+    width: 52px;
+    height: 40px;
+}
+
+.range_field {
+    border: 0px;
+    background-color: transparent;
+}
+
+.message {
+    color: #198754;
+    color: transparent;
+    font-size: 15px;
+    margin: 5px;
+}
